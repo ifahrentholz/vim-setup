@@ -27,46 +27,47 @@ call vundle#rc()
 " (!)REQUIRED(!)
 "============================================================"
 
-Bundle 'gmarik/vundle'
+Bundle "gmarik/vundle"
 
 
 "============================================================"
 " INSTALL BUNDLES
 "============================================================"
 
-Bundle 'git://github.com/tpope/vim-fugitive.git'
-Bundle 'git://github.com/flazz/vim-colorschemes.git'
-Bundle 'git://github.com/tpope/vim-rails.git'
+Bundle "git://github.com/tpope/vim-fugitive.git"
+Bundle "git://github.com/flazz/vim-colorschemes.git"
+Bundle "git://github.com/tpope/vim-rails.git"
 
-Bundle 'git://github.com/kien/ctrlp.vim.git'
-Bundle 'git://github.com/mattn/zencoding-vim.git'
-Bundle 'git://github.com/scrooloose/nerdtree.git'
-Bundle 'git://github.com/Lokaltog/vim-powerline.git'
-Bundle 'git://github.com/Lokaltog/vim-easymotion.git'
-Bundle 'git://github.com/Townk/vim-autoclose.git'
-Bundle 'git://github.com/epmatsw/ag.vim.git'
-Bundle 'git://github.com/Shougo/neocomplcache.git'
-Bundle 'git://github.com/cakebaker/scss-syntax.vim.git'
-Bundle 'git://github.com/vim-ruby/vim-ruby.git'
-Bundle 'git://github.com/tpope/vim-endwise.git'
-Bundle 'git://github.com/vim-scripts/dbext.vim.git'
-Bundle 'git://github.com/tsaleh/vim-matchit.git'
+Bundle "git://github.com/kien/ctrlp.vim.git"
+Bundle "git://github.com/mattn/zencoding-vim.git"
+Bundle "git://github.com/scrooloose/nerdtree.git"
+Bundle "git://github.com/Lokaltog/vim-powerline.git"
+Bundle "git://github.com/Lokaltog/vim-easymotion.git"
+Bundle "git://github.com/Townk/vim-autoclose.git"
+Bundle "git://github.com/epmatsw/ag.vim.git"
+Bundle "git://github.com/Shougo/neocomplcache.git"
+Bundle "git://github.com/cakebaker/scss-syntax.vim.git"
+Bundle "git://github.com/vim-ruby/vim-ruby.git"
+Bundle "git://github.com/tpope/vim-endwise.git"
+Bundle "git://github.com/vim-scripts/dbext.vim.git"
+Bundle "git://github.com/tsaleh/vim-matchit.git"
+Bundle "git://github.com/terryma/vim-multiple-cursors.git"
 
 
 "============================================================"
 " INSTALL SNIPMATE DEPENDENCIES
 "============================================================"
 
-Bundle 'MarcWeber/vim-addon-mw-utils'
-Bundle 'tomtom/tlib_vim'
-Bundle 'honza/vim-snippets'
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "honza/vim-snippets"
 
 
 "============================================================"
 " INSTALL SNIPMATE 
 "============================================================"
 
-Bundle 'garbas/vim-snipmate'
+Bundle "garbas/vim-snipmate"
 
 
 "============================================================"

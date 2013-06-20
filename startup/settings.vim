@@ -35,7 +35,13 @@ set encoding=utf-8                " use UTF-8 encoding
 set virtualedit=all               " free the cursor to stray beyond the defined text
 set shellslash                    " set the forward slash to be the slash of note
 set wrapscan                      " set the search scan to wrap lines
-"set showcmd                       " show the command in the lower left corner
+set splitright splitbelow         " Open new split windows to the right/bottom
+set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp     " Move all backups into ~
+set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp     "          -''-
 
+set backupdir
+set directory
+"Resize splits when the window is resized
+au VimResized * exe "normal! \<c-w>="
 
 
