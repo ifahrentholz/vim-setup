@@ -36,8 +36,9 @@ set virtualedit=all               " free the cursor to stray beyond the defined 
 set shellslash                    " set the forward slash to be the slash of note
 set wrapscan                      " set the search scan to wrap lines
 set splitright splitbelow         " Open new split windows to the right/bottom
+
 set swapfile
-set dir=~/tmp
+set dir=~/.vim-tmp/
 
 "Resize splits when the window is resized
 au VimResized * exe "normal! \<c-w>="
