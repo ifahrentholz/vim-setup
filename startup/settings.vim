@@ -33,7 +33,7 @@ set wildmode=list:longest,full
 set vb t_vb=                      " prevent vi making beep
 set encoding=utf-8                " use UTF-8 encoding
 set virtualedit=all               " free the cursor to stray beyond the defined text
-set shellslash                    " set the forward slash to be the slash of note
+"set shellslash                    " set the forward slash to be the slash of note
 set wrapscan                      " set the search scan to wrap lines
 set splitright splitbelow         " Open new split windows to the right/bottom
 
