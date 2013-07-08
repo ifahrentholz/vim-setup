@@ -52,6 +52,8 @@ Bundle "git://github.com/tpope/vim-endwise.git"
 Bundle "git://github.com/vim-scripts/dbext.vim.git"
 Bundle "git://github.com/tsaleh/vim-matchit.git"
 Bundle "git://github.com/terryma/vim-multiple-cursors.git"
+Bundle "junegunn/vim-easy-align"
+Bundle "git://github.com/vim-scripts/ZoomWin"
 
 
 "============================================================"

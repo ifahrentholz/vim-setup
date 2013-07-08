@@ -47,3 +47,12 @@ if exists("+undofile")
   set undodir+=~/.vim/undo//
   set undofile
 endif
+
+
+"============================================================"
+" ZENCODING
+"============================================================"
+
+let g:user_zen_leader_key = '<leader>'
+
+
