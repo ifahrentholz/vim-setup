@@ -11,7 +11,7 @@ set shiftwidth=2
 set linespace=3
 set expandtab                     " use spaces, not tab chars
 set nocompatible                  " don't need to be compatible with old vim
-set relativenumber                " show relative line numbers
+set number                        " show line numbers
 set showmatch                     " show bracket matches
 set hidden
 set ignorecase                    " ignore case in search
