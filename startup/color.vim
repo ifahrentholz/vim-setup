@@ -2,6 +2,6 @@
 " COLOR SETTINGS
 "============================================================"
 
-set background=light
-colorscheme solarized
+set background=dark
+colorscheme railscasts
 "colorscheme cobalt

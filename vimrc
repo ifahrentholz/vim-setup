@@ -55,6 +55,7 @@ Bundle "git://github.com/terryma/vim-multiple-cursors.git"
 Bundle "junegunn/vim-easy-align"
 Bundle "git://github.com/vim-scripts/ZoomWin"
 Bundle "git://github.com/mhinz/vim-startify"
+Bundle "git://github.com/othree/html5.vim"
 
 
 "============================================================"
