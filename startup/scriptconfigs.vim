@@ -21,7 +21,6 @@ map <leader>a :Ag!<space>
 "============================================================"
 
 let g:neocomplcache_enable_at_startup = 1
-map <silent> <C-s> :NERDTree<CR><C-w>p:NERDTreeFind<CR>
 
 
 "============================================================"
@@ -50,9 +49,9 @@ endif
 
 
 "============================================================"
-" ZENCODING
+" EMMET
 "============================================================"
 
-let g:user_zen_leader_key = '<leader>'
+let g:user_emmet_leader_key  = '<leader>'
 
 

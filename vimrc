@@ -39,8 +39,8 @@ Bundle "git://github.com/flazz/vim-colorschemes.git"
 Bundle "git://github.com/tpope/vim-rails.git"
 
 Bundle "git://github.com/kien/ctrlp.vim.git"
-Bundle "git://github.com/mattn/zencoding-vim.git"
 Bundle "git://github.com/scrooloose/nerdtree.git"
+Bundle "git://github.com/mattn/emmet-vim/"
 Bundle "git://github.com/Lokaltog/vim-powerline.git"
 Bundle "git://github.com/Lokaltog/vim-easymotion.git"
 Bundle "git://github.com/Townk/vim-autoclose.git"
@@ -56,6 +56,8 @@ Bundle "junegunn/vim-easy-align"
 Bundle "git://github.com/vim-scripts/ZoomWin"
 Bundle "git://github.com/mhinz/vim-startify"
 Bundle "git://github.com/othree/html5.vim"
+Bundle "git://github.com/jpo/vim-railscasts-theme"
+Bundle "git://github.com/vim-scripts/YankRing.vim"
 
 
 "============================================================"
@@ -106,7 +108,3 @@ source ~/.vim/startup/settings.vim
 source ~/.vim/startup/scriptconfigs.vim
 source ~/.vim/startup/functions.vim
 source ~/.vim/startup/mappings.vim
-
-
-
-
