@@ -1,7 +1,7 @@
  "============================================================"
 " VIMRC 
 " AUTHOR: INGO FAHRENTHOLZ
-" URL: https://github.com/ingo-fahrentholz
+" URL: https://github.com/ifahrentholz
 "============================================================"
 
 
@@ -54,10 +54,10 @@ Bundle "git://github.com/tsaleh/vim-matchit.git"
 Bundle "git://github.com/terryma/vim-multiple-cursors.git"
 Bundle "junegunn/vim-easy-align"
 Bundle "git://github.com/vim-scripts/ZoomWin"
-Bundle "git://github.com/mhinz/vim-startify"
+"Bundle "git://github.com/mhinz/vim-startify"
 Bundle "git://github.com/othree/html5.vim"
 Bundle "git://github.com/jpo/vim-railscasts-theme"
-Bundle "git://github.com/vim-scripts/YankRing.vim"
+"Bundle "git://github.com/vim-scripts/YankRing.vim"
 
 
 "============================================================"

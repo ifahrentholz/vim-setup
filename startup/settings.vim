@@ -3,7 +3,7 @@
 "============================================================"
 
 syntax on                         " show syntax highlighting
-set guifont=Monaco:h14
+"set guifont=Monaco:h14
 set nowrap                        " nowrap long lines
 set autoindent
 set ts=2                          " set autoindent to 2 spaces
