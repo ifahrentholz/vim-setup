@@ -35,7 +35,7 @@ Bundle "gmarik/vundle"
 "============================================================"
 
 Bundle "git://github.com/tpope/vim-fugitive.git"
-Bundle "git://github.com/flazz/vim-colorschemes.git"
+Bundle "git://github.com/ifahrentholz/vim-colorschemes"
 Bundle "git://github.com/tpope/vim-rails.git"
 
 Bundle "git://github.com/kien/ctrlp.vim.git"
@@ -54,10 +54,11 @@ Bundle "git://github.com/tsaleh/vim-matchit.git"
 Bundle "git://github.com/terryma/vim-multiple-cursors.git"
 Bundle "junegunn/vim-easy-align"
 Bundle "git://github.com/vim-scripts/ZoomWin"
-"Bundle "git://github.com/mhinz/vim-startify"
 Bundle "git://github.com/othree/html5.vim"
 Bundle "git://github.com/jpo/vim-railscasts-theme"
-"Bundle "git://github.com/vim-scripts/YankRing.vim"
+Bundle "git://github.com/groenewege/vim-less"
+Bundle "kchmck/vim-coffee-script"
+Bundle "git://github.com/tpope/vim-surround.git"
 
 
 "============================================================"

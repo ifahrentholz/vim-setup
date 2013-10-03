@@ -3,7 +3,7 @@
 "============================================================"
 
 syntax on                         " show syntax highlighting
-"set guifont=Monaco:h14
+set guifont=Monaco:h14
 set nowrap                        " nowrap long lines
 set autoindent
 set ts=2                          " set autoindent to 2 spaces
@@ -37,8 +37,8 @@ set virtualedit=all               " free the cursor to stray beyond the defined 
 set wrapscan                      " set the search scan to wrap lines
 set splitright splitbelow         " Open new split windows to the right/bottom
 
-set swapfile
-set dir=~/.vim-tmp/
+"set swapfile
+"set dir=~/.vim-tmp/
 
 "Resize splits when the window is resized
 au VimResized * exe "normal! \<c-w>="
