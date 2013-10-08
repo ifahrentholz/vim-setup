@@ -59,6 +59,8 @@ Bundle "git://github.com/jpo/vim-railscasts-theme"
 Bundle "git://github.com/groenewege/vim-less"
 Bundle "kchmck/vim-coffee-script"
 Bundle "git://github.com/tpope/vim-surround.git"
+Bundle "https://github.com/dhruvasagar/vim-table-mode"
+Bundle "https://github.com/heavenshell/vim-jsdoc"
 
 
 "============================================================"
