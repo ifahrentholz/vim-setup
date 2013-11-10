@@ -1,4 +1,3 @@
- "============================================================"
 " VIMRC 
 " AUTHOR: INGO FAHRENTHOLZ
 " URL: https://github.com/ifahrentholz
@@ -61,6 +60,9 @@ Bundle "kchmck/vim-coffee-script"
 Bundle "git://github.com/tpope/vim-surround.git"
 Bundle "https://github.com/dhruvasagar/vim-table-mode"
 Bundle "https://github.com/heavenshell/vim-jsdoc"
+Bundle "https://github.com/tpope/vim-commentary"
+Bundle "https://github.com/tpope/vim-abolish"
+Bundle "https://github.com/tpope/vim-repeat"
 
 
 "============================================================"
