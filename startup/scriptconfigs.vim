@@ -7,6 +7,11 @@ let g:ctrlp_max_height = 30
 let g:ctrlp_working_path_mode = 0
 let g:ctrlp_match_window_reversed = 0
 let g:ctrlp_show_hidden = 1
+set wildignore+=*\\.sass-cache\\*,*\\node_modules\\*,*\\.git\\*,*\\.hg\\*,*\\.svn\\*  " Windows ('noshellslash')
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v[\/]\.(git|hg|svn|sass-cache|node_modules)$',
+  \ 'file': '\v\.(exe|so|dll|jpg|png|jpeg|gif|scssc)$',
+  \ }
 
 
 "============================================================"
@@ -51,3 +56,8 @@ let g:AutoClosePairs = {'(': ')', '{': '}', '[': ']', '"': '"', "'": "'"}
 let g:user_emmet_leader_key  = '<leader>'
 
 
+"============================================================"
+" JS-DOC
+"============================================================"
+let g:jsdoc_default_mapping = '0'
+let g:jsdoc_allow_input_prompt = '1'

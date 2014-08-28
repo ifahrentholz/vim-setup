@@ -27,6 +27,10 @@ nnoremap ` '
 nmap <space> :
 nmap <leader>nt :NERDTreeToggle
 
+nmap <leader>gjj :!grunt build-js
+nmap <leader>gcc :!grunt build-sass
+nmap <leader>gsg :!grunt sg
+
 
 "============================================================"
 " EASIER WINDOW NAVIGATION
@@ -43,6 +47,7 @@ nmap <C-l> <C-w>l
 "============================================================"
 
 cmap cwd lcd %:p:h
+cmap gn echo bufname("%")
 
 
 "============================================================"
