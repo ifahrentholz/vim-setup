@@ -81,3 +81,9 @@ nn <leader>sl <c-w><s-h>
 nn <leader>sr <c-w><s-l>
 nn <leader>sb <c-w><s-j>
 nn <leader>st <c-w><s-k>
+
+
+"============================================================"
+" JSDOC
+"============================================================"
+let g:jsdoc_default_mapping = 0
