@@ -63,6 +63,7 @@ Bundle "https://github.com/rking/ag.vim"
 Bundle "https://github.com/groenewege/vim-less"
 Bundle "https://github.com/kchmck/vim-coffee-script"
 Bundle "https://github.com/tpope/vim-surround"
+Bundle "https://github.com/terryma/vim-multiple-cursors"
 
 
 "============================================================"
