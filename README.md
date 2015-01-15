@@ -9,3 +9,6 @@ $ ln -s .vim/vimrc .vimrc
 ```bash
 BundleInstall
 ```
+
+
+https://www.youtube.com/watch?v=yH1op4TId6k
