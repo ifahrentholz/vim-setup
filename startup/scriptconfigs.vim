@@ -16,6 +16,19 @@ let g:ctrlp_custom_ignore = {
 
 
 "============================================================"
+" SYNTASTIC
+"============================================================"
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 0
+let g:syntastic_auto_loc_list = 0
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+
+"============================================================"
 " MAP SILVER SEARCHER
 "============================================================"
 
@@ -62,3 +75,9 @@ let g:user_emmet_leader_key  = '<leader>'
 "============================================================"
 let g:jsdoc_default_mapping = '0'
 let g:jsdoc_allow_input_prompt = '1'
+
+
+"============================================================"
+" JAVASCRIPT LIBRARIES SYNTAX
+"============================================================"
+let g:used_javascript_libs = 'jquery,underscore,backbone,requirejs,handlebars,angularjs,angularui,jasmine'
