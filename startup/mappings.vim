@@ -87,3 +87,4 @@ nn <leader>st <c-w><s-k>
 " JSDOC
 "============================================================"
 let g:jsdoc_default_mapping = 0
+
