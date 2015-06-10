@@ -5,9 +5,6 @@
 syntax on                         " show syntax highlighting
 
 set guifont=Monospace\ 11
-set guioptions -=m                " hide menu bar
-set guioptions -=T                " hide toolbar
-set guioptions -=r                " hide scrollbar
 
 set nowrap                        " nowrap long lines
 set autoindent
