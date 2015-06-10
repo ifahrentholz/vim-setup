@@ -65,6 +65,7 @@ Bundle "https://github.com/tpope/vim-surround"
 Bundle "https://github.com/terryma/vim-multiple-cursors"
 Bundle "https://github.com/othree/javascript-libraries-syntax.vim.git"
 Bundle "https://github.com/scrooloose/syntastic.git"
+Bundle "https://github.com/Lokaltog/vim-powerline.git"
 
 
 "============================================================"
