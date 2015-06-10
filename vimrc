@@ -17,8 +17,8 @@ set nocompatible
 
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 
 "============================================================"
@@ -26,52 +26,52 @@ call vundle#rc()
 " (!)REQUIRED(!)
 "============================================================"
 
-Bundle "gmarik/vundle"
+Plugin 'gmarik/Vundle.vim'
 
 
 "============================================================"
 " INSTALL BUNDLES
 "============================================================"
 
-Bundle "https://github.com/tpope/vim-fugitive.git"
-Bundle "https://github.com/ifahrentholz/vim-colorschemes"
-Bundle "https://github.com/tpope/vim-rails.git"
-
-Bundle "https://github.com/kien/ctrlp.vim.git"
-Bundle "https://github.com/scrooloose/nerdtree.git"
-Bundle "https://github.com/mattn/emmet-vim/"
-Bundle "https://github.com/Lokaltog/vim-easymotion.git"
-Bundle "https://github.com/Townk/vim-autoclose.git"
-Bundle "https://github.com/Shougo/neocomplcache.git"
-Bundle "https://github.com/cakebaker/scss-syntax.vim.git"
-Bundle "https://github.com/vim-ruby/vim-ruby.git"
-Bundle "https://github.com/tpope/vim-endwise.git"
-Bundle "junegunn/vim-easy-align"
-Bundle "https://github.com/othree/html5.vim"
-Bundle "https://github.com/jpo/vim-railscasts-theme"
-Bundle "https://github.com/dhruvasagar/vim-table-mode"
-Bundle "https://github.com/heavenshell/vim-jsdoc"
-Bundle "https://github.com/tpope/vim-commentary"
-Bundle "https://github.com/tpope/vim-abolish"
-Bundle "https://github.com/tpope/vim-repeat"
-Bundle "https://github.com/tomtom/tlib_vim.git"
-Bundle "https://github.com/MarcWeber/vim-addon-mw-utils.git"
-Bundle "https://github.com/garbas/vim-snipmate"
-Bundle "https://github.com/honza/vim-snippets.git"
-Bundle "https://github.com/rking/ag.vim"
-Bundle "https://github.com/genoma/vim-less"
-Bundle "https://github.com/kchmck/vim-coffee-script"
-Bundle "https://github.com/tpope/vim-surround"
-Bundle "https://github.com/terryma/vim-multiple-cursors"
-Bundle "https://github.com/othree/javascript-libraries-syntax.vim.git"
-Bundle "https://github.com/scrooloose/syntastic.git"
-Bundle "https://github.com/Lokaltog/vim-powerline.git"
+Plugin 'https://github.com/tpope/vim-fugitive.git'
+Plugin 'https://github.com/ifahrentholz/vim-colorschemes'
+Plugin 'https://github.com/tpope/vim-rails.git'
+Plugin 'https://github.com/kien/ctrlp.vim.git'
+Plugin 'https://github.com/scrooloose/nerdtree.git'
+Plugin 'https://github.com/mattn/emmet-vim/'
+Plugin 'https://github.com/Lokaltog/vim-easymotion.git'
+Plugin 'https://github.com/Townk/vim-autoclose.git'
+Plugin 'https://github.com/Shougo/neocomplcache.git'
+Plugin 'https://github.com/cakebaker/scss-syntax.vim.git'
+Plugin 'https://github.com/vim-ruby/vim-ruby.git'
+Plugin 'https://github.com/tpope/vim-endwise.git'
+Plugin 'junegunn/vim-easy-align'
+Plugin 'https://github.com/othree/html5.vim'
+Plugin 'https://github.com/jpo/vim-railscasts-theme'
+Plugin 'https://github.com/dhruvasagar/vim-table-mode'
+Plugin 'https://github.com/heavenshell/vim-jsdoc'
+Plugin 'https://github.com/tpope/vim-commentary'
+Plugin 'https://github.com/tpope/vim-abolish'
+Plugin 'https://github.com/tpope/vim-repeat'
+Plugin 'https://github.com/tomtom/tlib_vim.git'
+Plugin 'https://github.com/MarcWeber/vim-addon-mw-utils.git'
+Plugin 'https://github.com/garbas/vim-snipmate'
+Plugin 'https://github.com/honza/vim-snippets.git'
+Plugin 'https://github.com/rking/ag.vim'
+Plugin 'https://github.com/genoma/vim-less'
+Plugin 'https://github.com/kchmck/vim-coffee-script'
+Plugin 'https://github.com/tpope/vim-surround'
+Plugin 'https://github.com/terryma/vim-multiple-cursors'
+Plugin 'https://github.com/othree/javascript-libraries-syntax.vim.git'
+Plugin 'https://github.com/scrooloose/syntastic.git'
+Plugin 'https://github.com/Lokaltog/vim-powerline.git'
 
 
 "============================================================"
 " (!) REQUIRED FOR VUNDLE (!)
 "============================================================"
 
+call vundle#end()            
 filetype plugin indent on
 
 
@@ -80,13 +80,13 @@ filetype plugin indent on
 "============================================================"
 
 " Brief help
-" :BundleList          - list configured bundles
-" :BundleInstall(!)    - install(update) bundles
-" :BundleSearch(!) foo - search(or refresh cache first) for foo
-" :BundleClean(!)      - confirm(or auto-approve) removal of unused bundles
+" :PluginList          - list configured bundles
+" :PluginInstall(!)    - install(update) bundles
+" :PluginSearch(!) foo - search(or refresh cache first) for foo
+" :PluginClean(!)      - confirm(or auto-approve) removal of unused bundles
 "
 " see :h vundle for more details or wiki for FAQ
-" NOTE: comments after Bundle command are not allowed..
+" NOTE: comments after Plugin command are not allowed..
 
 
 "============================================================"
