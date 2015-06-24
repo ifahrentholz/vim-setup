@@ -65,6 +65,12 @@ Plugin 'https://github.com/terryma/vim-multiple-cursors'
 Plugin 'https://github.com/othree/javascript-libraries-syntax.vim.git'
 Plugin 'https://github.com/scrooloose/syntastic.git'
 Plugin 'https://github.com/Lokaltog/vim-powerline.git'
+Plugin 'https://github.com/digitaltoad/vim-jade.git'
+"Plugin 'https://github.com/moll/vim-node.git'
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'https://github.com/myhere/vim-nodejs-complete.git'
+Plugin 'https://github.com/goatslacker/mango.vim'
+Plugin 'https://github.com/marijnh/tern_for_vim'
 
 
 "============================================================"

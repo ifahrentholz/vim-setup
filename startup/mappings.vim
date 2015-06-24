@@ -27,9 +27,9 @@ nnoremap ` '
 nmap <space> :
 nmap <leader>nt :NERDTreeToggle
 
-nmap <leader>gjj :!grunt build-js
-nmap <leader>gcc :!grunt build-sass
-nmap <leader>gsg :!grunt sg
+"nmap <leader>gjj :!grunt build-js
+"nmap <leader>gcc :!grunt build-sass
+"nmap <leader>gsg :!grunt sg
 
 
 "============================================================"
