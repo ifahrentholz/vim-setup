@@ -8,7 +8,7 @@ $ ln -s ~/.vim/.jshintrc ~/.jshintrc
 
 ### Start VIM and install bundles 
 ```bash
-BundleInstall
+PluginInstall
 ```
 
 ### Setup Syntastic-File Checkers
