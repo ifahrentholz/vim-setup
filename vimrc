@@ -71,6 +71,7 @@ Plugin 'jelera/vim-javascript-syntax'
 Plugin 'https://github.com/myhere/vim-nodejs-complete.git'
 Plugin 'https://github.com/goatslacker/mango.vim'
 Plugin 'https://github.com/marijnh/tern_for_vim'
+Plugin 'https://github.com/Valloric/YouCompleteMe.git'
 
 
 "============================================================"

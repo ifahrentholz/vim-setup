@@ -4,7 +4,7 @@
 
 syntax on                         " show syntax highlighting
 
-set guifont=Monospace\ 11
+set guifont=Monaco:h16
 
 set nowrap                        " nowrap long lines
 set autoindent
