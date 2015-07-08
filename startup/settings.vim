@@ -6,8 +6,8 @@ syntax on                         " show syntax highlighting
 
 set guifont=Monaco:h16
 
-set backupdir=~/.vim-backups
-set directory=~/.vim-backups/swapfiles/
+set backupdir=~/./vim/vim-backups
+set directory=~/.vim/vim-backups/swapfiles/
 set nowrap                        " nowrap long lines
 set autoindent
 set ts=2                          " set autoindent to 2 spaces
