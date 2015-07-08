@@ -10,8 +10,8 @@ let g:ctrlp_show_hidden = 1
 set wildignore+=*/.sass-cache/*,*.so,*.swp,*.zip,*/node_modules/*,*/.git/*,*/.hg/*,*/.svn/*
 set wildignore+=*\\.sass-cache\\*,*\\node_modules\\*,*\\.git\\*,*\\.hg\\*,*\\.svn\\*  " Windows ('noshellslash')
 let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\v[\/]\.(git|hg|svn|sass-cache|node_modules)$',
-  \ 'file': '\v\.(exe|so|dll|jpg|png|jpeg|gif|scssc)$',
+  \ 'dir':  '\v[\/]\.(git|hg|svn|sass-cache|node_modules|.idea|.sass-cache)$',
+  \ 'file': '\v\.(exe|so|dll|jpg|png|jpeg|gif|scssc|*.sw*|.DS_Store)$',
   \ }
 
 
