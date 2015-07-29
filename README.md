@@ -16,3 +16,16 @@ PluginInstall
 npm install -g csslint
 npm install -g jshint
 ```
+
+### Setup TernJS
+```bash
+cd ~/.vim/bundle/tern_for_vim
+npm install
+```
+
+### Setup YouCompleteMe
+```bash
+brew install cmake
+cd ~/.vim/bundle/YouCompleteMe
+./install.sh --system-boost
+```
