@@ -4,7 +4,7 @@
 
 syntax on                         " show syntax highlighting
 
-set guifont=Monaco:h16
+set guifont=Monaco:h14
 
 set backupdir=~/vim-backups
 set directory=~/vim-backups/swapfiles/

@@ -72,6 +72,8 @@ Plugin 'https://github.com/goatslacker/mango.vim'
 Plugin 'https://github.com/marijnh/tern_for_vim'
 Plugin 'https://github.com/Valloric/YouCompleteMe.git'
 Plugin 'https://github.com/sjl/gundo.vim.git'
+Plugin 'https://github.com/szw/vim-tags.git'
+Plugin 'https://github.com/majutsushi/tagbar'
 
 
 "============================================================"
