@@ -8,6 +8,8 @@ set guifont=Monaco:h14
 
 set backupdir=~/vim-backups
 set directory=~/vim-backups/swapfiles/
+set guioptions-=r                 " remove right-hand scrollbar
+set guioptions-=L                 " remove left-hand scrollbar
 set nowrap                        " nowrap long lines
 set autoindent
 set ts=2                          " set autoindent to 2 spaces
