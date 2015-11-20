@@ -1,3 +1,10 @@
+# DEPRECATED
+__Please take a look at the new [VIMStorm IDE](https://github.com/ifahrentholz/VIMStorm) setup__
+
+
+---- 
+
+
 ### Installation
 
 ```bash
